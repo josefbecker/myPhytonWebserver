@@ -12,17 +12,17 @@ sudo docker run -it -p 8888:9000 --rm mypythonserver
 
  http://localhost:8888
  
- # Start Docker without port mapping
+ # Alternatively you can start Docker without port mapping
   
- # Start docker image
+ # a) Start docker image
  sudo docker run -it --rm mypythonserver
  
- # get container Id
+ # b) get container Id
  sudo docker ps
  
- # get container ip address
+ # c) get container ip address
  sudo docker insprect <containerId> | grep IPAdress
   
-  # start browser with ip adress
+  # d) start browser with ip adress
   http:// ip-adress :900
  

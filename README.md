@@ -25,9 +25,11 @@ sudo docker run -it -p 8888:9000 --rm mypythonserver
  
  Result looks like this:
   josef@josef-VirtualBox:$ sudo docker inspect 3e7a161430b1 | grep IPAddress
+  
             "SecondaryIPAddresses": null,
             "IPAddress": "172.17.0.2",
                     "IPAddress": "172.17.0.2",
+                    
   josef@josef-VirtualBox:$ 
 
   

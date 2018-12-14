@@ -1,5 +1,5 @@
 # myPhytonWebserver 
-# caution: the servers use different ip adresses; Dockerfile and commands has to be adjusted
+# Caution: the servers use different ports; Dockerfile and commands has to be adjusted
 After cloning this project run
 
 # 1. Run docker build

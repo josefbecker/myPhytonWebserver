@@ -27,5 +27,5 @@ sudo docker run -it -p 8888:9000 --rm mypythonserver
  sudo docker insprect <containerId> | grep IPAdress
   
   # start browser with ip adress
-  http:// <ip-adress> :900
+  http:// ip-adress :900
  

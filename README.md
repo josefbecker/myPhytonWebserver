@@ -12,11 +12,8 @@ sudo docker run -it -p 8888:9000 --rm mypythonserver
 
  http://localhost:8888
  
- # -------------------------------------------------------
- # Without port mapping
- # ------------------------------------------------------
- 
- 
+ # Start Docker without port mapping
+  
  # Start docker image
  sudo docker run -it --rm mypythonserver
  

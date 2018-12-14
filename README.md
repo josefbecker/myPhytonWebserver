@@ -22,7 +22,19 @@ sudo docker run -it -p 8888:9000 --rm mypythonserver
  
  # c) get container ip address
  sudo docker inspect container-Id | grep IPAddress
+ 
+ Result looks like this:
+  josef@josef-VirtualBox:~$ sudo docker inspect 3e7a161430b1 | grep IPAddress
+            "SecondaryIPAddresses": null,
+            "IPAddress": "172.17.0.2",
+                    "IPAddress": "172.17.0.2",
+  josef@josef-VirtualBox:~$ 
+
   
   # d) start browser with ip adress
   http:// ip-adress :9000
+  
+  First container often gets this address
+  
+  http://172.17.0.2:9000/
  
